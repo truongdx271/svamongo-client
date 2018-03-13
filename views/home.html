@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SVAgent</title>
+    <link rel="stylesheet" href="../assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/skeleton.css">
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <script type="text/javascript" src="../js/home.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h4>Select project</h4>
+        <!-- <div class="row">
+            <div class="six columns">
+                <div class="top icon">
+                    <img src="../assets/img/iconagent.png" alt="" style="max-width:100%">
+                </div>
+            </div>
+        </div> -->
+        <div class="row">
+            <div class="six columns">
+                <select name="" id="slProject" class="u-full-width"></select>
+                </select>
+            </div>
+            <div class="three columns">
+                <a class="button button-primary" id="refreshBtn" href="#" onclick="refreshProjects()">
+                    <i class="fa fa-refresh fa-lg fa-fw" aria-hidden="true"></i>Refresh list
+                </a>
+            </div>
+            <div class="three columns">
+                <!-- Test button
+                <input class="button-primary" value="test" id="testVar" type="button" onclick="testGlobal()"> -->
+            </div>
+        </div>
+        <h4>Select folder</h4>
+        <div class="row">
+            <div class="six columns">
+                <input class="u-full-width" placeholder="" id="folder" type="text" readonly="readonly">
+            </div>
+            <div class="three columns">
+                <input class="button-primary" value="Select folder" id="folderBtn" type="button">
+            </div>
+        </div>
+        <h4>Select scan type</h4>
+        <div class="row">
+            <div class="three columns">
+                <label style="margin-top: .5rem">
+                    <input class="" id="csradio" name="codeType" value="cSharp" type="radio">
+                    <span class="label-body">C#</span>
+                </label>
+            </div>
+            <div class="three columns">
+                <label style="margin-top: .5rem">
+                    <input class="" id="javaradio" name="codeType" value="java" type="radio">
+                    <span class="label-body">Java</span>
+                </label>
+            </div>
+            <div class="three columns">
+                <input class="button-primary" value="Scan" id="runBtn" type="button">
+            </div>
+            <div class="three columns">
+                <input class="button-primary" value="Export" id="exportBtn" type="button">
+            </div>
+        </div>
+        <div id="result-section" style="display:none">
+            <h4>Scan result:</h3>
+                <div class="row">
+                    <div class="six columns">
+                        <label for="" id="timelb">Time: </label>
+                        <!-- <label for="" id="timelb"></label> -->
+                    </div>
+                    <div class="six columns">
+                        <label for="" id="totallb">Total: </label>
+                        <!-- <label for="" id="totallb"></label> -->
+                    </div>
+                </div>
+                <table class="u-full-width">
+                    <thead>
+                        <tr>
+                            <th>Error code</th>
+                            <th>Display</th>
+                            <th>Path</th>
+                            <th>Line</th>
+                            <th>Result</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tablebody">
+                    </tbody>
+                </table>
+        </div>
+        <div id="load-section" style="display:none">
+            <!-- <div class="row"></div> -->
+            <div class="row">
+                <label for="add" class="invisible">x</label>
+                <label for="add" class="invisible">x</label>
+                <label for="add" class="invisible">x</label>
+                <div class="offset-by-five columns">
+                    <i class="fa fa-spinner fa-spin fa-fw fa-5x" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <script type="text/javascript">
+        document.addEventListener('keydown', function (e) {
+            if (e.which === 123) {
+                remote.getCurrentWindow().webContents.openDevTools();
+            } else if (e.which === 116) {
+                location.reload();
+            }
+        });
+    </script> -->
+</body>
+
+</html>

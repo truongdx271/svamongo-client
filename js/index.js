@@ -1,4 +1,4 @@
-const database = require('./js/database');
+const database = require('../js/database');
 
 window.onload = function() {
 

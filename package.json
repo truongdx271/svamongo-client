@@ -1,17 +1,25 @@
 {
-  "name": "electron-demo",
+  "name": "svagent",
+  "productName":"SVAgent",
   "version": "1.0.0",
-  "description": "Electron demo app for a school presentation",
+  "description": "SVA desktop client",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "author": "Simon Schiller",
+  "author": "Truongdx",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^1.4.8"
+    "electron": "1.7.10",
+    "electron-packager": "^10.1.1"
   },
   "dependencies": {
-    "nedb": "^1.8.0"
+    "axios": "^0.17.1",
+    "moment": "^2.20.1",
+    "nedb": "^1.8.0",
+    "nedb-multi": "^1.2.2",
+    "npm": "^5.6.0",
+    "qs": "^6.5.1",
+    "request": "^2.83.0"
   }
 }

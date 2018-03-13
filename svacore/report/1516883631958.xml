@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE BaselineResult SYSTEM "roles.dtd">
+<BaselineResult>
+    <BaselineHead id="0">
+        <Identify>100</Identify>
+        <DisplayTxt>Quản lý xác thực</DisplayTxt>
+        <Description/>
+        <Result>UNKNOWN</Result>
+        <UserCheck/>
+        <ListBaselineSub/>
+    </BaselineHead>
+    <BaselineHead id="1">
+        <Identify>200</Identify>
+        <DisplayTxt>Quản lý phiên đăng nhập</DisplayTxt>
+        <Description/>
+        <Result>UNKNOWN</Result>
+        <UserCheck/>
+        <ListBaselineSub/>
+    </BaselineHead>
+    <BaselineHead id="2">
+        <Identify>300</Identify>
+        <DisplayTxt>Phân quyền</DisplayTxt>
+        <Description/>
+        <Result>UNKNOWN</Result>
+        <UserCheck/>
+        <ListBaselineSub/>
+    </BaselineHead>
+    <BaselineHead id="3">
+        <Identify>400</Identify>
+        <DisplayTxt>Back-end</DisplayTxt>
+        <Description/>
+        <Result>UNKNOWN</Result>
+        <UserCheck/>
+        <ListBaselineSub>
+            <BaselineSub id="4">
+                <Identify>401</Identify>
+                <DisplayTxt>Mã hóa dữ liệu quan trọng</DisplayTxt>
+                <Description/>
+                <Result>UNKNOWN</Result>
+                <UserCheck/>
+                <ListItemObject/>
+            </BaselineSub>
+            <BaselineSub id="5">
+                <Identify>402</Identify>
+                <DisplayTxt>SQL - Prepared statement</DisplayTxt>
+                <Description/>
+                <Result>UNKNOWN</Result>
+                <UserCheck/>
+                <ListItemObject>
+                    <ItemObject id="6">
+                        <Identify>402</Identify>
+                        <DisplayTxt>executeSQLQuery</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\core\src\com\viettel\core\dao\repo\InsertRepositoryImpl.java</PathFile>
+                        <DisplayPath>WEB_KIRIN\core\src\com\viettel\core\dao\repo\InsertRepositoryImpl.java</DisplayPath>
+                        <LineNumber>95</LineNumber>
+                        <Result>WARNING</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="7">
+                        <Identify>402</Identify>
+                        <DisplayTxt>getEntityByHQL</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</PathFile>
+                        <DisplayPath>WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</DisplayPath>
+                        <LineNumber>65</LineNumber>
+                        <Result>WARNING</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="8">
+                        <Identify>402</Identify>
+                        <DisplayTxt>getEntityBySQL</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</PathFile>
+                        <DisplayPath>WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</DisplayPath>
+                        <LineNumber>82</LineNumber>
+                        <Result>WARNING</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="9">
+                        <Identify>402</Identify>
+                        <DisplayTxt>getListByHQL</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</PathFile>
+                        <DisplayPath>WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</DisplayPath>
+                        <LineNumber>108</LineNumber>
+                        <Result>WARNING</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="10">
+                        <Identify>402</Identify>
+                        <DisplayTxt>getListByHQLPaginated</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</PathFile>
+                        <DisplayPath>WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</DisplayPath>
+                        <LineNumber>123</LineNumber>
+                        <Result>WARNING</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="11">
+                        <Identify>402</Identify>
+                        <DisplayTxt>getListBySQL</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</PathFile>
+                        <DisplayPath>WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</DisplayPath>
+                        <LineNumber>163</LineNumber>
+                        <Result>WARNING</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="12">
+                        <Identify>402</Identify>
+                        <DisplayTxt>getListBySQLPaginated</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</PathFile>
+                        <DisplayPath>WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</DisplayPath>
+                        <LineNumber>217</LineNumber>
+                        <Result>WARNING</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="13">
+                        <Identify>402</Identify>
+                        <DisplayTxt>getListByQueryAndScalar</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</PathFile>
+                        <DisplayPath>WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</DisplayPath>
+                        <LineNumber>282</LineNumber>
+                        <Result>WARNING</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="14">
+                        <Identify>402</Identify>
+                        <DisplayTxt>getListByQueryAndScalarFirst</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</PathFile>
+                        <DisplayPath>WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</DisplayPath>
+                        <LineNumber>359</LineNumber>
+                        <Result>WARNING</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="15">
+                        <Identify>402</Identify>
+                        <DisplayTxt>getListByQueryAndScalarPaginated</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</PathFile>
+                        <DisplayPath>WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</DisplayPath>
+                        <LineNumber>383</LineNumber>
+                        <Result>WARNING</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="16">
+                        <Identify>402</Identify>
+                        <DisplayTxt>countByHQL</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</PathFile>
+                        <DisplayPath>WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</DisplayPath>
+                        <LineNumber>136</LineNumber>
+                        <Result>WARNING</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="17">
+                        <Identify>402</Identify>
+                        <DisplayTxt>countBySQL</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</PathFile>
+                        <DisplayPath>WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</DisplayPath>
+                        <LineNumber>243</LineNumber>
+                        <Result>WARNING</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="18">
+                        <Identify>402</Identify>
+                        <DisplayTxt>getObjectByQuery</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</PathFile>
+                        <DisplayPath>WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</DisplayPath>
+                        <LineNumber>539</LineNumber>
+                        <Result>WARNING</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="19">
+                        <Identify>402</Identify>
+                        <DisplayTxt>getFirstBySQL</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</PathFile>
+                        <DisplayPath>WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</DisplayPath>
+                        <LineNumber>568</LineNumber>
+                        <Result>WARNING</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="20">
+                        <Identify>402</Identify>
+                        <DisplayTxt>isExistBySQL</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</PathFile>
+                        <DisplayPath>WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</DisplayPath>
+                        <LineNumber>621</LineNumber>
+                        <Result>WARNING</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="21">
+                        <Identify>402</Identify>
+                        <DisplayTxt>getDataToListPaginated</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</PathFile>
+                        <DisplayPath>WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</DisplayPath>
+                        <LineNumber>633</LineNumber>
+                        <Result>WARNING</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="22">
+                        <Identify>402</Identify>
+                        <DisplayTxt>countBySQLReturnBigDecimal</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</PathFile>
+                        <DisplayPath>WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</DisplayPath>
+                        <LineNumber>662</LineNumber>
+                        <Result>WARNING</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="23">
+                        <Identify>402</Identify>
+                        <DisplayTxt>getListByQueryDynamic</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</PathFile>
+                        <DisplayPath>WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</DisplayPath>
+                        <LineNumber>683</LineNumber>
+                        <Result>WARNING</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="24">
+                        <Identify>402</Identify>
+                        <DisplayTxt>getListByQueryDynamicFromPackage</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</PathFile>
+                        <DisplayPath>WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</DisplayPath>
+                        <LineNumber>721</LineNumber>
+                        <Result>WARNING</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="25">
+                        <Identify>402</Identify>
+                        <DisplayTxt>getListByQueryDynamicFromPackage4Out</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</PathFile>
+                        <DisplayPath>WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</DisplayPath>
+                        <LineNumber>778</LineNumber>
+                        <Result>WARNING</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="26">
+                        <Identify>402</Identify>
+                        <DisplayTxt>getListByQueryDynamicFromPackage2Out</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</PathFile>
+                        <DisplayPath>WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</DisplayPath>
+                        <LineNumber>900</LineNumber>
+                        <Result>WARNING</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="27">
+                        <Identify>402</Identify>
+                        <DisplayTxt>getListByQueryDynamicFromPackageClobOrArray</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</PathFile>
+                        <DisplayPath>WEB_KIRIN\core\src\com\viettel\core\dao\repo\SelectRepositoryImpl.java</DisplayPath>
+                        <LineNumber>990</LineNumber>
+                        <Result>WARNING</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                </ListItemObject>
+            </BaselineSub>
+            <BaselineSub id="28">
+                <Identify>403</Identify>
+                <DisplayTxt>SQL - Whitelist</DisplayTxt>
+                <Description/>
+                <Result>UNKNOWN</Result>
+                <UserCheck/>
+                <ListItemObject/>
+            </BaselineSub>
+            <BaselineSub id="29">
+                <Identify>404</Identify>
+                <DisplayTxt>No SQL - cấu hình an toàn</DisplayTxt>
+                <Description/>
+                <Result>UNKNOWN</Result>
+                <UserCheck/>
+                <ListItemObject/>
+            </BaselineSub>
+            <BaselineSub id="30">
+                <Identify>405</Identify>
+                <DisplayTxt>No SQL - login</DisplayTxt>
+                <Description/>
+                <Result>UNKNOWN</Result>
+                <UserCheck/>
+                <ListItemObject/>
+            </BaselineSub>
+            <BaselineSub id="31">
+                <Identify>406</Identify>
+                <DisplayTxt>No SQL - escape, api</DisplayTxt>
+                <Description/>
+                <Result>UNKNOWN</Result>
+                <UserCheck/>
+                <ListItemObject/>
+            </BaselineSub>
+            <BaselineSub id="32">
+                <Identify>407</Identify>
+                <DisplayTxt>Xpath (whitelist, blacklist)</DisplayTxt>
+                <Description/>
+                <Result>UNKNOWN</Result>
+                <UserCheck/>
+                <ListItemObject/>
+            </BaselineSub>
+            <BaselineSub id="33">
+                <Identify>408</Identify>
+                <DisplayTxt>LDAP (whitelist, blacklist)</DisplayTxt>
+                <Description/>
+                <Result>UNKNOWN</Result>
+                <UserCheck/>
+                <ListItemObject/>
+            </BaselineSub>
+            <BaselineSub id="34">
+                <Identify>409</Identify>
+                <DisplayTxt>OS - dùng api</DisplayTxt>
+                <Description/>
+                <Result>UNKNOWN</Result>
+                <UserCheck/>
+                <ListItemObject/>
+            </BaselineSub>
+            <BaselineSub id="35">
+                <Identify>410</Identify>
+                <DisplayTxt>OS - whitelist</DisplayTxt>
+                <Description/>
+                <Result>UNKNOWN</Result>
+                <UserCheck/>
+                <ListItemObject/>
+            </BaselineSub>
+            <BaselineSub id="36">
+                <Identify>411</Identify>
+                <DisplayTxt>File - include</DisplayTxt>
+                <Description/>
+                <Result>UNKNOWN</Result>
+                <UserCheck/>
+                <ListItemObject/>
+            </BaselineSub>
+            <BaselineSub id="37">
+                <Identify>412</Identify>
+                <DisplayTxt>File - kiểm tra định dạng, header file upload</DisplayTxt>
+                <Description/>
+                <Result>UNKNOWN</Result>
+                <UserCheck/>
+                <ListItemObject>
+                    <ItemObject id="38">
+                        <Identify>412</Identify>
+                        <DisplayTxt>copyInputStreamToOutputStream</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\web\src\java\vnm\web\action\videos\VideosAction.java</PathFile>
+                        <DisplayPath>WEB_KIRIN\web\src\java\vnm\web\action\videos\VideosAction.java</DisplayPath>
+                        <LineNumber>263</LineNumber>
+                        <Result>WARNING</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="39">
+                        <Identify>412</Identify>
+                        <DisplayTxt>copyStream</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\web\src\java\vnm\web\utils\report\excel\ExcelJXLSAPIUtils.java</PathFile>
+                        <DisplayPath>WEB_KIRIN\web\src\java\vnm\web\utils\report\excel\ExcelJXLSAPIUtils.java</DisplayPath>
+                        <LineNumber>254</LineNumber>
+                        <Result>WARNING</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="40">
+                        <Identify>412</Identify>
+                        <DisplayTxt>copyStream</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\web\src\java\vnm\web\utils\report\excel\ExcelPOIProcessUtils.java</PathFile>
+                        <DisplayPath>WEB_KIRIN\web\src\java\vnm\web\utils\report\excel\ExcelPOIProcessUtils.java</DisplayPath>
+                        <LineNumber>273</LineNumber>
+                        <Result>WARNING</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="41">
+                        <Identify>412</Identify>
+                        <DisplayTxt>copyStream</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\web\src\java\vnm\web\utils\report\excel\ExcelPOIVTICTUtils.java</PathFile>
+                        <DisplayPath>WEB_KIRIN\web\src\java\vnm\web\utils\report\excel\ExcelPOIVTICTUtils.java</DisplayPath>
+                        <LineNumber>217</LineNumber>
+                        <Result>WARNING</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="42">
+                        <Identify>412</Identify>
+                        <DisplayTxt>copyStream</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\web\src\java\vnm\web\utils\report\excel\ExcelProcessUtils.java</PathFile>
+                        <DisplayPath>WEB_KIRIN\web\src\java\vnm\web\utils\report\excel\ExcelProcessUtils.java</DisplayPath>
+                        <LineNumber>3731</LineNumber>
+                        <Result>WARNING</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="43">
+                        <Identify>412</Identify>
+                        <DisplayTxt>copyStream</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\web\src\java\vnm\web\utils\report\excel\ExcelProcessUtilsEx.java</PathFile>
+                        <DisplayPath>WEB_KIRIN\web\src\java\vnm\web\utils\report\excel\ExcelProcessUtilsEx.java</DisplayPath>
+                        <LineNumber>235</LineNumber>
+                        <Result>WARNING</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                </ListItemObject>
+            </BaselineSub>
+            <BaselineSub id="44">
+                <Identify>413</Identify>
+                <DisplayTxt>File - thư mục lưu file</DisplayTxt>
+                <Description/>
+                <Result>UNKNOWN</Result>
+                <UserCheck/>
+                <ListItemObject/>
+            </BaselineSub>
+            <BaselineSub id="45">
+                <Identify>414</Identify>
+                <DisplayTxt>File - refer whitelist</DisplayTxt>
+                <Description/>
+                <Result>UNKNOWN</Result>
+                <UserCheck/>
+                <ListItemObject/>
+            </BaselineSub>
+            <BaselineSub id="46">
+                <Identify>415</Identify>
+                <DisplayTxt>File - không trả đường dẫn tuyệt đối</DisplayTxt>
+                <Description/>
+                <Result>UNKNOWN</Result>
+                <UserCheck/>
+                <ListItemObject/>
+            </BaselineSub>
+            <BaselineSub id="47">
+                <Identify>416</Identify>
+                <DisplayTxt>File - giới hạn truy cập</DisplayTxt>
+                <Description/>
+                <Result>UNKNOWN</Result>
+                <UserCheck/>
+                <ListItemObject/>
+            </BaselineSub>
+            <BaselineSub id="48">
+                <Identify>417</Identify>
+                <DisplayTxt>HTTP - tạo request an toàn</DisplayTxt>
+                <Description/>
+                <Result>UNKNOWN</Result>
+                <UserCheck/>
+                <ListItemObject/>
+            </BaselineSub>
+            <BaselineSub id="49">
+                <Identify>418</Identify>
+                <DisplayTxt>XML - tắt tính năng nguy hiểm</DisplayTxt>
+                <Description/>
+                <Result>UNKNOWN</Result>
+                <UserCheck/>
+                <ListItemObject>
+                    <ItemObject id="50">
+                        <Identify>418</Identify>
+                        <DisplayTxt>buildConfig</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\core\src\com\viettel\core\common\utils\AppSetting.java</PathFile>
+                        <DisplayPath>WEB_KIRIN\core\src\com\viettel\core\common\utils\AppSetting.java</DisplayPath>
+                        <LineNumber>131</LineNumber>
+                        <Result>FAIL</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="51">
+                        <Identify>418</Identify>
+                        <DisplayTxt>buildConfig</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\web\src\java\vnm\web\helper\AppSetting.java</PathFile>
+                        <DisplayPath>WEB_KIRIN\web\src\java\vnm\web\helper\AppSetting.java</DisplayPath>
+                        <LineNumber>139</LineNumber>
+                        <Result>FAIL</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                </ListItemObject>
+            </BaselineSub>
+            <BaselineSub id="52">
+                <Identify>419</Identify>
+                <DisplayTxt>XML - encode ký tự</DisplayTxt>
+                <Description/>
+                <Result>UNKNOWN</Result>
+                <UserCheck/>
+                <ListItemObject/>
+            </BaselineSub>
+        </ListBaselineSub>
+    </BaselineHead>
+    <BaselineHead id="53">
+        <Identify>500</Identify>
+        <DisplayTxt>Dữ liệu đầu vào</DisplayTxt>
+        <Description/>
+        <Result>UNKNOWN</Result>
+        <UserCheck/>
+        <ListBaselineSub>
+            <BaselineSub id="54">
+                <Identify>501</Identify>
+                <DisplayTxt>Kiểm tra phía server</DisplayTxt>
+                <Description/>
+                <Result>UNKNOWN</Result>
+                <UserCheck/>
+                <ListItemObject/>
+            </BaselineSub>
+            <BaselineSub id="55">
+                <Identify>502</Identify>
+                <DisplayTxt>Kiểm tra trên các nguồn từ người dùng (header, post,….)</DisplayTxt>
+                <Description/>
+                <Result>UNKNOWN</Result>
+                <UserCheck/>
+                <ListItemObject/>
+            </BaselineSub>
+            <BaselineSub id="56">
+                <Identify>503</Identify>
+                <DisplayTxt>Dùng chuẩn encode, decode</DisplayTxt>
+                <Description/>
+                <Result>UNKNOWN</Result>
+                <UserCheck/>
+                <ListItemObject/>
+            </BaselineSub>
+            <BaselineSub id="57">
+                <Identify>504</Identify>
+                <DisplayTxt>Validate dữ liệu</DisplayTxt>
+                <Description/>
+                <Result>UNKNOWN</Result>
+                <UserCheck/>
+                <ListItemObject/>
+            </BaselineSub>
+            <BaselineSub id="58">
+                <Identify>505</Identify>
+                <DisplayTxt>Whitelist</DisplayTxt>
+                <Description/>
+                <Result>UNKNOWN</Result>
+                <UserCheck/>
+                <ListItemObject/>
+            </BaselineSub>
+        </ListBaselineSub>
+    </BaselineHead>
+    <BaselineHead id="59">
+        <Identify>600</Identify>
+        <DisplayTxt>Dữ liệu đầu ra</DisplayTxt>
+        <Description/>
+        <Result>UNKNOWN</Result>
+        <UserCheck/>
+        <ListBaselineSub>
+            <BaselineSub id="60">
+                <Identify>601</Identify>
+                <DisplayTxt>Chỉ rõ Character encode đầu ra</DisplayTxt>
+                <Description/>
+                <Result>UNKNOWN</Result>
+                <UserCheck/>
+                <ListItemObject/>
+            </BaselineSub>
+            <BaselineSub id="61">
+                <Identify>602</Identify>
+                <DisplayTxt>Encode đầu ra</DisplayTxt>
+                <Description/>
+                <Result>UNKNOWN</Result>
+                <UserCheck/>
+                <ListItemObject>
+                    <ItemObject id="62">
+                        <Identify>602</Identify>
+                        <DisplayTxt>errMsg</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\web\web\WEB-INF\jsp\general\changePasswordPage.jsp</PathFile>
+                        <DisplayPath>WEB_KIRIN\web\web\WEB-INF\jsp\general\changePasswordPage.jsp</DisplayPath>
+                        <LineNumber>175</LineNumber>
+                        <Result>FAIL</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="63">
+                        <Identify>602</Identify>
+                        <DisplayTxt>flowExecutionKey</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\web\web\WEB-INF\jsp\general\changePasswordPage.jsp</PathFile>
+                        <DisplayPath>WEB_KIRIN\web\web\WEB-INF\jsp\general\changePasswordPage.jsp</DisplayPath>
+                        <LineNumber>177</LineNumber>
+                        <Result>FAIL</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="64">
+                        <Identify>602</Identify>
+                        <DisplayTxt>commandName</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\web\web\WEB-INF\jsp\general\loginPage.jsp</PathFile>
+                        <DisplayPath>WEB_KIRIN\web\web\WEB-INF\jsp\general\loginPage.jsp</DisplayPath>
+                        <LineNumber>163</LineNumber>
+                        <Result>FAIL</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="65">
+                        <Identify>602</Identify>
+                        <DisplayTxt>errMsg</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\web\web\WEB-INF\jsp\general\loginPage.jsp</PathFile>
+                        <DisplayPath>WEB_KIRIN\web\web\WEB-INF\jsp\general\loginPage.jsp</DisplayPath>
+                        <LineNumber>194</LineNumber>
+                        <Result>FAIL</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="66">
+                        <Identify>602</Identify>
+                        <DisplayTxt>flowExecutionKey</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\web\web\WEB-INF\jsp\general\loginPage.jsp</PathFile>
+                        <DisplayPath>WEB_KIRIN\web\web\WEB-INF\jsp\general\loginPage.jsp</DisplayPath>
+                        <LineNumber>207</LineNumber>
+                        <Result>FAIL</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="67">
+                        <Identify>602</Identify>
+                        <DisplayTxt>requestScope</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\web\web\WEB-INF\jsp\general\loginPage.jsp</PathFile>
+                        <DisplayPath>WEB_KIRIN\web\web\WEB-INF\jsp\general\loginPage.jsp</DisplayPath>
+                        <LineNumber>212</LineNumber>
+                        <Result>FAIL</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="68">
+                        <Identify>602</Identify>
+                        <DisplayTxt>orderId</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\web\web\WEB-INF\jsp\sale-product\adjust-order\adjustOrderMainPage.jsp</PathFile>
+                        <DisplayPath>WEB_KIRIN\web\web\WEB-INF\jsp\sale-product\adjust-order\adjustOrderMainPage.jsp</DisplayPath>
+                        <LineNumber>357</LineNumber>
+                        <Result>FAIL</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="69">
+                        <Identify>602</Identify>
+                        <DisplayTxt>saleOrder</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\web\web\WEB-INF\jsp\sale-product\adjust-order\adjustOrderMainPage.jsp</PathFile>
+                        <DisplayPath>WEB_KIRIN\web\web\WEB-INF\jsp\sale-product\adjust-order\adjustOrderMainPage.jsp</DisplayPath>
+                        <LineNumber>358</LineNumber>
+                        <Result>FAIL</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="70">
+                        <Identify>602</Identify>
+                        <DisplayTxt>orderId</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\web\web\WEB-INF\jsp\sale-product\adjust-order\viewOrderMainPage.jsp</PathFile>
+                        <DisplayPath>WEB_KIRIN\web\web\WEB-INF\jsp\sale-product\adjust-order\viewOrderMainPage.jsp</DisplayPath>
+                        <LineNumber>210</LineNumber>
+                        <Result>FAIL</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="71">
+                        <Identify>602</Identify>
+                        <DisplayTxt>saleOrder</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\web\web\WEB-INF\jsp\sale-product\adjust-order\viewOrderMainPage.jsp</PathFile>
+                        <DisplayPath>WEB_KIRIN\web\web\WEB-INF\jsp\sale-product\adjust-order\viewOrderMainPage.jsp</DisplayPath>
+                        <LineNumber>211</LineNumber>
+                        <Result>FAIL</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="72">
+                        <Identify>602</Identify>
+                        <DisplayTxt>fsxn</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\web\web\WEB-INF\jsp\sale-product\create-order-vansale\createOrderVansaleDBPage.jsp</PathFile>
+                        <DisplayPath>WEB_KIRIN\web\web\WEB-INF\jsp\sale-product\create-order-vansale\createOrderVansaleDBPage.jsp</DisplayPath>
+                        <LineNumber>90</LineNumber>
+                        <Result>FAIL</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="73">
+                        <Identify>602</Identify>
+                        <DisplayTxt>fsxn</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\web\web\WEB-INF\jsp\sale-product\create-sale-order\CreateSaleOrderAction.jsp</PathFile>
+                        <DisplayPath>WEB_KIRIN\web\web\WEB-INF\jsp\sale-product\create-sale-order\CreateSaleOrderAction.jsp</DisplayPath>
+                        <LineNumber>150</LineNumber>
+                        <Result>FAIL</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="74">
+                        <Identify>602</Identify>
+                        <DisplayTxt>orderId</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\web\web\WEB-INF\jsp\sale-product\print-order\presaleOrderAdjustment_IN.jsp</PathFile>
+                        <DisplayPath>WEB_KIRIN\web\web\WEB-INF\jsp\sale-product\print-order\presaleOrderAdjustment_IN.jsp</DisplayPath>
+                        <LineNumber>348</LineNumber>
+                        <Result>FAIL</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="75">
+                        <Identify>602</Identify>
+                        <DisplayTxt>saleOrder</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\web\web\WEB-INF\jsp\sale-product\print-order\presaleOrderAdjustment_IN.jsp</PathFile>
+                        <DisplayPath>WEB_KIRIN\web\web\WEB-INF\jsp\sale-product\print-order\presaleOrderAdjustment_IN.jsp</DisplayPath>
+                        <LineNumber>349</LineNumber>
+                        <Result>FAIL</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                    <ItemObject id="76">
+                        <Identify>602</Identify>
+                        <DisplayTxt>cycleCount</DisplayTxt>
+                        <PathFile>C:\Users\admin\Desktop\WEB_KIRIN\web\web\WEB-INF\jsp\stock\counting\stockCountingDetail.jsp</PathFile>
+                        <DisplayPath>WEB_KIRIN\web\web\WEB-INF\jsp\stock\counting\stockCountingDetail.jsp</DisplayPath>
+                        <LineNumber>58</LineNumber>
+                        <Result>FAIL</Result>
+                        <UserCheck/>
+                    </ItemObject>
+                </ListItemObject>
+            </BaselineSub>
+            <BaselineSub id="77">
+                <Identify>603</Identify>
+                <DisplayTxt>Lọc ký tự trên response header</DisplayTxt>
+                <Description/>
+                <Result>UNKNOWN</Result>
+                <UserCheck/>
+                <ListItemObject/>
+            </BaselineSub>
+            <BaselineSub id="78">
+                <Identify>604</Identify>
+                <DisplayTxt>Thiết lập cookie</DisplayTxt>
+                <Description/>
+                <Result>UNKNOWN</Result>
+                <UserCheck/>
+                <ListItemObject/>
+            </BaselineSub>
+            <BaselineSub id="79">
+                <Identify>605</Identify>
+                <DisplayTxt>Chuyển hướng an toàn</DisplayTxt>
+                <Description/>
+                <Result>UNKNOWN</Result>
+                <UserCheck/>
+                <ListItemObject/>
+            </BaselineSub>
+        </ListBaselineSub>
+    </BaselineHead>
+    <BaselineHead id="80">
+        <Identify>700</Identify>
+        <DisplayTxt>Kiểm soát ngoại lệ và ghi log</DisplayTxt>
+        <Description/>
+        <Result>UNKNOWN</Result>
+        <UserCheck/>
+        <ListBaselineSub/>
+    </BaselineHead>
+    <BaselineHead id="81">
+        <Identify>800</Identify>
+        <DisplayTxt>Sử dụng framework, lib</DisplayTxt>
+        <Description/>
+        <Result>UNKNOWN</Result>
+        <UserCheck/>
+        <ListBaselineSub/>
+    </BaselineHead>
+    <BaselineHead id="82">
+        <Identify>900</Identify>
+        <DisplayTxt>Xử lý business logic</DisplayTxt>
+        <Description/>
+        <Result>UNKNOWN</Result>
+        <UserCheck/>
+        <ListBaselineSub/>
+    </BaselineHead>
+</BaselineResult>
